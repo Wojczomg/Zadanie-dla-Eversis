@@ -1,0 +1,75 @@
+@media only screen and (min-width: 1500px) {
+    .w3-content {
+      max-width: 70%;
+      
+    }
+  }
+  @media only screen and (max-width: 1500px) {
+    .w3-content {
+      max-width: 100%;
+      
+    }
+  }  
+.totop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+}
+  
+
+.backimg {
+    background-image: url("img/landing.jpg");
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+  }
+
+
+
+.menu-nav a {
+   margin-left: 10px;
+   text-decoration: none;
+
+}
+
+.main-panel {
+   height: 400px;
+}
+.main-panel-full {
+    height: 70vh;
+}
+
+.panel-screen {
+    height: 100%;
+    overflow: scroll;
+}
+.panel-screen-static {
+    height: 100%;
+    overflow: scroll;
+}
+
+.w3-quarter img {
+    display: block;
+}
+
+.interline {
+    line-height: 90%;
+
+}
+.interline:hover {
+    cursor: pointer;
+}
+
+.hidden-links {
+    display: none;
+}
+.hidden-links div {
+    line-height: 0%;
+    cursor: pointer;
+}
+
+.toshow {
+    display: none;
+}
